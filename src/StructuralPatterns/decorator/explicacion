@@ -1,0 +1,8 @@
+Composicion vs herencia
+En el patron de diseño decorator damos comportamiento a un objeto de manera dinamica
+estructura por capas
+
+Un decorador es un componente
+Es decir que un decorador herada de componente y ademas tiene un componente como atributo en su clase
+
+nuestro personaje base es un componente que queremos decorar
