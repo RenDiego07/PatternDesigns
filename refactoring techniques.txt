@@ -6,3 +6,4 @@ inline variable --> assign a variable for the method's output, this can be fixed
 Extract Method --> once a piece of code is used for more than one component it is considered to be duplicate code, we fix this inconvenient by creating a new method whose output will match the piece of code logic
 Replace temp with query--> we declare a variable which will later be used for future components, this can be add up to the method more lines that it's supposed to have  
 split Temporary variables ---> one variable encapsulates more than one logic, this can be fixed declaring the variables needed for the method's implementation, this does not apply when the variable changes due to a loop
+remove assignments to parameters--> it's not allowed to used an input for a logic operation within the method, rather if needed to use to input for the purpose mention, it's convenient to declare a new variable which will encapsulate the input value
